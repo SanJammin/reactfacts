@@ -1,19 +1,14 @@
 import "./App.css";
+import Main from "./components/Main";
+import Navbar from "./components/Navbar";
 
 function App() {
 
   return (
-    <div>
-      <img src="/react-logo.png" alt="Logo of React" className="logo" />
-      <h1>Fun facts about React</h1>
-      <ul>
-        <li>Was first released in 2013</li>
-        <li>Was originally created by Jordan Walke</li>
-        <li>Has well over 100K stars on GitHub</li>
-        <li>Is maintained by Meta</li>
-        <li>Powers thousands of enterprise apps including mobile apps</li>
-      </ul>
-    </div>
+    <>
+      <Navbar />
+      <Main />
+    </>
   );
 }
 
