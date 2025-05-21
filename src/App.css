@@ -1,12 +1,28 @@
 body {
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #27292c;
-    color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", Helvetica, sans-serif;
+  background: #27292c;
+  color: white;
+  box-sizing: border-box;
 }
 
 h1 {
-    margin-top: 30px;
+  margin-top: 30px;
+}
+
+header {
+  height: 90px;
+  background-color: #21222A;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  height: 100%;
+  color: #61dAFB;
+  padding-left: 1em;
 }
 
 .logo {
