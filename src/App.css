@@ -2,13 +2,9 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Inter", Helvetica, sans-serif;
-  background: #27292c;
+  background: #282D35;
   color: white;
   box-sizing: border-box;
-}
-
-h1 {
-  margin-top: 30px;
 }
 
 header {
@@ -21,10 +17,38 @@ nav {
   align-items: center;
   gap: 7px;
   height: 100%;
-  color: #61dAFB;
+  color: #61DAFB;
   padding-left: 1em;
 }
 
 .logo {
   width: 40px;
+}
+
+main {
+  padding: 60px 30px;
+  background-image: url(../public/react-logo.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+.facts-list {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.facts-list > li {
+  padding-block: 10px;
+  line-height: 19px;
+  font-weight: 300;
+}
+
+.facts-list > li::marker {
+  color: #61DAFB;
+  font-size: 1.5rem;
 }
